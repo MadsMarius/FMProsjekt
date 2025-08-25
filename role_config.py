@@ -12,18 +12,48 @@ stat_mapping = {
     "Str": "Strength",
 
     # Technical attributes
-    "": "Corners",
     "Cro": "Crossing",
     "Dri": "Dribbling",
     "Fin": "Finishing",
     "Fir": "First Touch",
-    "": "Free Kick Taking",
+    "Fre": "Free Kicks",
     "Hea": "Heading",
     "Lon": "Long Shots",
     "Lth": "Long Throws",
     "Mar": "Marking",
     "Pas": "Passing",
-    "": "Penalty Taking",
-    "": "Tackling",
-    "": "Technique",
+    "Pen": "Penalty Taking",
+    "Tck": "Tackling",
+    "Tec": "Technique",
+    "Pos": "Positioning",
+
+    # Mental attributes
+    "Agg": "Aggression",
+    "Ant": "Anticipation",
+    "Bra": "Bravery",
+    "Com": "Composure",
+    "Cnt": "Concentration",
+    "Dec": "Decisions",
+    "Det": "Determination",
+    "Fla": "Flair",
+    "Ldr": "Leadership",
+    "Otb": "Off the Ball",
+    "Tea": "Teamwork",
+    "Vis": "Vision",
+    "Wor": "Work Rate",
+
+    # Goalkeeper attributes
+    "Aer": "Aerial Reach",
+    "Cmd": "Command Of Area",
+    "Com": "Communication",
+    "Ecc": "Eccentricity",
+    "Han": "Handling",
+    "Kic": "Kicking",
+    "1v1": "One on Ones",
+    "Ref": "Reflexes",
+    "Pun": "Punching Out(Tendency)",
+    "Tro": "Rushing Out(Tendency)",
+    "Thr": "Throwing",
+
+
 }
