@@ -1,0 +1,97 @@
+families:
+  GK:                    # Goalkeeper family baseline
+    eligible_positions: ["GK"]
+    side: [C]
+    supported_duties: ["D"]
+    foot_pref: null
+    foot_bonus_max: 0.00
+    base_weights:
+
+
+  SK:                    # Sweeper Keeper family baseline
+    eligible_positions: ["GK"]
+    side: [C]
+    suppoerted_duties: ["A","D","S"]
+    foot_pref: null
+    foot_bonus_max: 0.00
+    base_weights:
+
+Duties:
+  A:
+    weight_changes:
+
+  D:
+    weight_changes:
+
+  S: 
+    weight_changes:
+
+
+
+
+
+  W:                      # Winger family baseline
+    eligible_positions: ["AM (L)","AM (R)","M (L)","M (R)"]
+    side: ["L","R"]
+    foot_pref: "same"
+    foot_bonus_max: 0.06
+    base_weights:
+      acceleration: 0.18
+      pace:         0.18
+      dribbling:    0.18
+      crossing:     0.12
+      technique:    0.10
+      off_the_ball: 0.12
+      flair:        0.12
+
+  IF:                     # Inside Forward family baseline
+    eligible_positions: ["AM (L)","AM (R)"]
+    side: ["L","R"]
+    foot_pref: "opposite"
+    foot_bonus_max: 0.06
+    base_weights:
+      acceleration: 0.16
+      pace:         0.16
+      dribbling:    0.18
+      finishing:    0.16
+      technique:    0.10
+      off_the_ball: 0.12
+      flair:        0.12
+
+  IW:                     # Inverted Winger baseline
+    eligible_positions: ["AM (L)","AM (R)","M (L)","M (R)"]
+    side: ["L","R"]
+    foot_pref: "opposite"
+    foot_bonus_max: 0.06
+    base_weights:
+      acceleration: 0.16
+      pace:         0.16
+      dribbling:    0.16
+      crossing:     0.10
+      finishing:    0.10
+      technique:    0.12
+      off_the_ball: 0.10
+      flair:        0.10
+
+duties:                  # duty-specific changes applied to base
+  A:                     # Attack
+    weight_changes:
+      finishing:    +0.06
+      off_the_ball: +0.02
+      crossing:     -0.02
+      work_rate:    -0.02
+
+  S:                     # Support
+    weight_changes:
+      passing:      +0.04
+      vision:       +0.03
+      crossing:     +0.02
+      finishing:    -0.03
+
+  D:                     # Defend 
+    weight_changes:
+      work_rate:    +0.05
+      tackling:     +0.04
+      positioning:  +0.03
+      dribbling:    -0.04
+      flair:        -0.03

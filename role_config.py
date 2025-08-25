@@ -31,7 +31,7 @@ stat_mapping = {
     "Agg": "Aggression",
     "Ant": "Anticipation",
     "Bra": "Bravery",
-    "Com": "Composure",
+    "Cmp": "Composure",
     "Cnt": "Concentration",
     "Dec": "Decisions",
     "Det": "Determination",
