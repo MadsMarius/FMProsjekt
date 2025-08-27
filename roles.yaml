@@ -16,7 +16,7 @@ families:
     foot_bonus_max: 0.00
     base_weights:
 
-Duties:
+duties:
   A:
     weight_changes:
 
@@ -27,9 +27,14 @@ Duties:
     weight_changes:
 
 
+families:
+  D:
+    eligible_positions: ["D (CL)", "D (CR)", "D (C)", "D (L)", "D (R)"]
 
 
 
+
+families
   W:                      # Winger family baseline
     eligible_positions: ["AM (L)","AM (R)","M (L)","M (R)"]
     side: ["L","R"]
