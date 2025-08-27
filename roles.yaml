@@ -107,7 +107,48 @@ fb_families:     # Full Back family baseline
     foot_bonus_max: 0.06
     base_weights:
 
+dm_families:     # Deep Midfielder family baseline
+  DM:
+    eligible_positions: ["DM (C)", "DM (CL), DM (CR)"]
+    eligible_duties: ["D", "S"]
+    side: ["L", "R", "C"]
+    foot_pref: "same"
+    foot_bonus_max: 0.06
+    base_weights:
 
+  DLP:
+
+  A:
+    eligible_positions: ["DM (C)", "DM (CL), DM (CR)"]
+    eligible_duties: ["D"]
+    side: ["L", "R", "C"]
+    foot_pref: "same"
+    foot_bonus_max: 0.06
+    base_weights:
+
+  HB:
+    eligible_positions: ["DM (C)", "DM (CL), DM (CR)"]
+    eligible_duties: ["D"]
+    side: ["L", "R", "C"]
+    foot_pref: "same"
+    foot_bonus_max: 0.06
+    base_weights:
+
+  RGA: 
+    eligible_positions: ["DM (C)", "DM (CL), DM (CR)"]
+    eligible_duties: ["S"]
+    side: ["L", "R", "C"]
+    foot_pref: "same"
+    foot_bonus_max: 0.06
+    base_weights:
+
+  VOL:
+    eligible_positions: ["DM (R)", "DM (L)"]
+    eligible_duties: ["S", "A"]
+    side: ["L", "R"]
+    foot_pref: "same"
+    foot_bonus_max: 0.06
+    base_weights:
 
 winger_families:     # Winger family baseline
   W:                      # Winger family baseline
