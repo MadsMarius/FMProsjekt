@@ -2,16 +2,15 @@ from pathlib import Path
 import pandas as pd
 from io import StringIO
 
-path = r"C:\Users\madsm\Documents\Sports Interactive\Football Manager 2024\Untitled.html"
+path = r"/Users/madsmariusjohnsenoyen/Library/Application Support/Sports Interactive/Football Manager 2024/Untitled.html"
 html_text = Path(path).read_text(encoding="utf-8")
 
 tables = pd.read_html(StringIO(html_text))
 df = pd.read_csv("player_data.csv")
 
 # Saves player data into a CSV file
-for i, table in enumerate(tables):
-    table.to_csv(f"player_data.csv", index=False)
-
+for i, df in enumerate(tables):
+    df.to_csv(f"player_data.csv", index=False)
 
 
 
