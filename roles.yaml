@@ -2,8 +2,8 @@
 gk_families:     # Goalkeeper family baseline
   GK:                    
     eligible_positions: ["GK"]
-    supported_duties: ["D"]
-    side: [C]
+    eligible_duties: ["D"]
+    side: ["C"]
     foot_pref: null
     foot_bonus_max: 0.00
     base_weights:
@@ -11,8 +11,8 @@ gk_families:     # Goalkeeper family baseline
 
   SK:                    # Sweeper Keeper family baseline
     eligible_positions: ["GK"]
-    supported_duties: ["A", "D", "S"]
-    side: [C]
+    eligible_duties: ["A", "D", "S"]
+    side: ["C"]
     foot_pref: null
     foot_bonus_max: 0.00
     base_weights:
@@ -53,7 +53,7 @@ cd_families:     # Central Defender family baseline
   WCB:
     eligible_positions: ["D (CL)", "D (CR)"]
     eligible_duties: ["D", "S", "A"]
-    side: ["L", "R",]
+    side: ["L", "R"]
     foot_pref: "same"
     foot_bonus_max: 0.06
     base_weights:
